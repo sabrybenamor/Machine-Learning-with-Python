@@ -1,7 +1,7 @@
 # Machine Learning Projects 
 
 This repository is dedicated to projects completed as part of the **Machine Learning with Python** certification from [freeCodeCamp](https://www.freecodecamp.org/).  
-Each subfolder will contain a separate project. This is the first project: **Healthcare Cost Prediction**.
+Each subfolder contains a separate project. Below are the listed projects:
 
 ---
 
@@ -48,6 +48,32 @@ You are provided with a dataset containing information about various individuals
 - **Success Criterion:**  
   To pass the challenge, `model.evaluate()` must return a **Mean Absolute Error (MAE) under 3500**. This means the model predicts healthcare costs within $3,500 of the actual value.
 - The final cell also predicts expenses for the test data and visualizes the results in a graph.
+
+---
+
+## Project 2: SMS Spam Classifier
+
+### Overview
+
+In this challenge, you need to create a machine learning model that will classify SMS messages as either "ham" or "spam".  
+A "ham" message is a normal message sent by a friend. A "spam" message is an advertisement or a message sent by a company.
+
+---
+
+### Task Details
+
+- **Function Creation:**  
+  You should create a function called `predict_message` that takes a message string as an argument and returns a list. 
+  - The first element in the list should be a number between zero and one that indicates the likeliness of "ham" (0) or "spam" (1).
+  - The second element in the list should be the word "ham" or "spam", depending on which is most likely.
+
+- **Dataset:**  
+  The SMS Spam Collection dataset is used for this project. The dataset has already been grouped into train data and test data.
+
+- **Notebook Structure:**  
+  - The first two cells import the libraries and data.
+  - The final cell tests your model and function.
+  - Add your code in between these cells.
 
 ---
 
