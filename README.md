@@ -58,12 +58,5 @@ You are provided with a dataset containing information about various individuals
 
 ---
 
-## Projects List
-
-1. **Healthcare Cost Prediction** (this folder)
-
-More projects will be added to this repository as the certification progresses.
-
----
 
 **Happy Learning!**
